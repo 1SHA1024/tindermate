@@ -98,7 +98,7 @@ there. See the `.env.example` file for an example of how the `.env` file should 
 3. cd into the directory of the project (e.g. `$ cd tindermate`)
 4. *Optional:* Create a virtual environment for the project using `$ python -m venv venv`
 and activate it using `$ venv/bin/activate` on Linux/macOS or `$ venv\Scripts\activate` on Windows
-5. Install the project's dependencies using `$ python -m pip install .`
+5. Install the project's dependencies using poetry packge manager (instaed pip) / poetry install
 6. Run the application in your terminal using `$ python -m main` 
 
 Note: The project is developed using poetry, so you can skip the steps 4 and 5 and use `poetry install` if you have
